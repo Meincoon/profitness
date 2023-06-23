@@ -1,0 +1,25 @@
+.intro-gallery{
+
+}
+
+.controls {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+
+.slider {
+    margin: 50px auto;
+    width: 1024px;
+    height: 512px;
+}
+
+.hidden {
+    display: none;
+}

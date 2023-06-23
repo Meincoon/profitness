@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <link type="Image" href="images/main_icon.png" rel="icon">
+        <title>PRO FITNESS - Your Ultimate Fitness Destination</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header"> 
+                <div class="header-container">
+                    <a href="index.html" class="title"><strong>Pro <span class="title color">Fitness</span></strong><p class="content content-logo"><b>фитнес клуб</b></p></a>
+                    <nav class="header-nav">
+                        <ul class="header-nav-ul">
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="vacancies.php">вакансии</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="club-cards.html">клубные карты</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="stock.html">акции</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="gallery.html">посмотреть клуб</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="schedule.html">расписание</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="services.html">услуги</a></li>
+                            <li class="content header-li"><a class="nav color-hover border-color-hover" href="contacts.html">контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="main">
+                <div class="video-intro">
+                    <video class="video-intro-media" src="images/background-intro.mov" type="video/mp4" autoplay muted loop></video>
+                </div>
+                <div class="intro">
+                    <div class="effects"></div>
+                    <div class="intro-container">
+                        <strong class="title intro-title">КРУГЛОСУТОЧНЫЙ ФИТНЕС КЛУБ!<br><br><strong class="color"> БЕЗЛИМИТ НА 12 месяцев  </strong><br><br><strong class="color"> ЗА </strong>  8000 <strong class="color"> РУБ. </strong></strong>
+                        <div class="btn-intro">
+                            <a href="#popup" class="title content color-hover background-color btn-enroll border-color">Записаться на первое посещение</a>
+                            <a class="title content color-hover btn-promotions border-color" href="stock.html">текущие акции</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="popup" class="popup">
+                    <a href="#header" class="popup_area"></a>
+                    <div class="popup_body">
+                        <div class="popup_content">
+                            <div class="title popup_title">Запишитесь на первое посещение</div>
+                            <div class="content popup_text">Отправьте заявку, и мы перезвоним Вам</div>
+                            <form class="popup_form" action="/php/popup_users.php" method="post">
+                            <input  name="popup_name" type="text" value="" class="input_popup" placeholder="введите ваше имя..."/>
+                            <br />
+                            <input name="popup_telephone" type="text" value="" class="input_popup" placeholder="введите ваш телефон..."/>
+                            <br />
+                            <button class="content button_popup "><div>отправить</div></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="About Us"> 
+                    <div class="intro-container">
+                        <div class="box">
+                            <div class="box-attendance">
+                                <a href="services.html">
+                                <div class="box-effect">
+                                    <div class="box-attendance-content">
+                                        <div class="title box-title">услуги</div>
+                                        <hr class="color background-color box-horizontal-line">
+                                        <div class="box-inner  content"><p>- Тренажерный зал</p><p>- Персональные тренировки</p><p>- Групповые занятия</p><p>- Детские секции от 3х лет</p></div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="box-team">
+                                <a href="team.html">
+                                <div class="box-effect">
+                                    <div class="box-attendance-content">
+                                        <div class="title box-title">команда</div>
+                                        <hr class="color background-color box-horizontal-line">
+                                        <div class="box-inner  content"><p>Высококвалифицированный тренерский состав</p></div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="box-services">
+                                <a href="services.html">
+                                <div class="box-effect">
+                                    <div class="box-attendance-content">
+                                        <div class="title box-title">сервис</div>
+                                        <hr class="color background-color box-horizontal-line">
+                                        <div class="box-inner  content"><p>- СПА зона</p><p>- Массаж</p><p>- Спорт-бар</p><p>- Детская комната</p></div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="box-club-cards"> 
+                                <a href="club-cards.html">
+                                    <div class="box-effect">
+                                        <div class="box-attendance-content">
+                                            <div class="title box-title">клубные карты</div>
+                                            <hr class="color background-color box-horizontal-line">
+                                            <div class="box-inner  content"><p>- На 1 месяц</p><p>- На 3 месяца</p><p>- На 6 месяцев</p><p>- На 12 месяцев</p></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about-box">
+                            <div class="about-box-left">
+                                <h2 class="title">Мы предлагаем все для</br>комфортных тренировок</h2>
+                                <div></div>
+                                <strong class="content">PROFITNESS - это профессиональное и качественное оборудование, которое придется по душе, даже самым искушенным профессионалам.</strong>
+                                <div></div>
+                                <strong class="content">Мы знаем, что для успешных тренировок важен комфорт и безопасность! В наших клубах есть все необходимое для того, чтобы наши клиенты всегда достигали своих целей!</strong>
+                            </div>
+                            <div class="about-box-right">
+                                <div class="about-box-right-h2 title">
+                                    <h2 class="title about-box-right-title color">24/7</h2>
+                                </div>
+                                <div class="about-box-right-strong">
+                                    <strong class="content about-box-right-content">Круглосуточный режим работы</strong>
+                                </div>
+                                <div class="about-box-right-strong about-box-right-strong-top-two">
+                                    <strong class="content about-box-right-content">Просторный и современный зал</strong>
+                                </div>
+                                <div class="about-box-right-h2 title about-box-right-h2-top-two">
+                                    <h2 class="title about-box-right-title color">1200 м2</h2>
+                                </div>
+                                <div class="about-box-right-h2 title about-box-right-h2-top-three">
+                                    <h2 class="title about-box-right-title color">более 20</h2>
+                                </div>
+                                <div class="about-box-right-strong about-box-right-strong-top-three">
+                                    <strong class="content about-box-right-content">Направлений групповых занятий</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantages">
+                            <div class="affordable-price">
+                                <img class="icon" src="https://static.tildacdn.com/tild6563-3932-4136-a237-386266343262/offer_2.svg" alt="" />
+                                <h2 class="title content advantages-title">Доступная цена</h2>
+                                <strong class="content">Доступная цена, которая рассчитана на все слои населения</strong>
+                            </div>
+                            <div class="equipment">
+                                <img class="icon " src="https://static.tildacdn.com/tild6638-3861-4662-b032-663966356431/gym.svg" alt="" />
+                                <h2 class="title content advantages-title">оснащение</h2>
+                                <strong class="content">Современное и профессиональное оборудование, которое подойдет, как новичкам, так и профессионалам</strong>
+                            </div>
+                            <div class="convenient-location">
+                                <img class="icon" src="https://static.tildacdn.com/tild6538-6562-4462-b033-633833636438/love1.svg" alt="" />
+                                <h2 class="title content advantages-title">Удобное местоположение</h2>
+                                <strong class="content">Располагаемся в зоне удобной транспортной развязки</strong>
+                            </div>
+                            <div class="round-the-clock">
+                                <img class="icon " src="https://static.tildacdn.com/tild3733-6136-4530-b932-373064643161/smartphone.svg" alt="" />
+                                <h2 class="title content advantages-title">КРУГЛОСУТОЧНО</h2>
+                                <strong class="content">Круглосуточный режим работы – занимайся когда хочешь и сколько хочешь</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="container-get-started" action="/php/users.php" method="post">
+                    <div class="effects-get-started">
+                        <div class="get-started">
+                            <h1 class="title get-started-title">НАЧАТЬ ЗАНИМАТЬСЯ</h1>
+                            <div class=" content">
+                                <label for="name">ФИО</label>
+                                <input class=" content full-name-input" name="name" id="name" type="text" placeholder="введите ваше имя..."/>
+                            </div>
+                            <div class=" content telephone">
+                                <label for="name">Телефон</label>
+                                <input class=" content telephone-input" name="telephone" id="telephone" type="tel" placeholder="введите ваш телефон..."/>
+                            </div>
+                            <button class=" content color-hover background-color border-color-hover get-started-button border-color-hover">отправить заявку</button>
+                            <div class="content policy">Нажимая на кнопку «Отправить», Вы соглашаетесь на обработку персональных данных в соответствии с <a class="color" href="Policy.html">политикой конфиденциальности</a></div>
+                        </div>
+                    </div>
+                </form>
+                <div class="container-questions"> 
+                    <div class="title questions">Остались вопросы? </br> Напишите нам: </br> ответим в чате <a class="color" href="#">WhatsApp</a></div>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-title title">КЛУБ PRO<span class="color">FITNESS</span> в Саратове</div>
+                    <div class="contacts-left">
+                        <div class="description content">ул. Астраханская, 77</div>
+                        <div class="description content">г. Саратов,</br>ул. Астраханская, 77</div>
+                        <div class="description content">Режим работы: КРУГЛОСУТОЧНО</div>
+                        <div class="description">
+                            <a href="https://vk.com"><img src="images/icons-vk.svg"/></a>
+                            <a href="https://telegram.org"><img src="images/icons-telegram.svg"/></a>
+                        </div>
+                    </div>
+                    <div class="contacts-right" id="map"></div>
+                </div>
+            </div>
+            <footer> 
+                <div class="container-footer">
+                    <div class="footer1">
+                    <a href="index.html" class="title"><strong>Pro <span class="title color">Fitness</span></strong><p class="content content-logo"><b>фитнес клуб</b></p></a>
+                        <div class="footer-icon">
+                            <a href="https://vk.com"class="vk"><img src="images/icons-vk.svg"/></a>
+                            <a href="https://telegram.org"class="tg"><img src="images/icons-telegram.svg"/></a>
+                            <a href="https://whatsapp.com"class="wp"><img src="images/icons-whatsapp.svg"/></a>
+                        </div>
+                        <a href="Policy.html" class="content Privacy-Policy">Политика конфиденциальности</a>
+                        <a href="rules.html" class="content Privacy-Policy">Правила клуба</a>
+                        <div class="reserved content">&copy; 2023 ProFitness</div>
+                    </div>
+                    <div class="footer-menu">
+                        <h2 class="title footer-title footer-menu-title">Меню</h2>
+                        <ul>
+                            <li><a class="content" href="vacancies.php">вакансии</a></li>
+                            <li><a class="content" href="club-cards.html">клубные карты</a></li>
+                            <li><a class="content" href="stock.html">акции</a></li>
+                            <li><a class="content" href="gallery.html">посмотреть клуб</a></li>
+                            <li><a class="content" href="schedule.html">расписание</a></li>
+                            <li><a class="content" href="services.html">услуги</a></li>
+                            <li><a class="content" href="contacts.html">контакты</a></li>
+                        </ul>
+                     </div>
+                     <div class="contacts-footer">
+                         <h2 class="title footer-title footer-menu-title">контакты</h2>
+                         <div class="content footer-menu-title"><b>+7 (999) 999-99-99</b></div>
+                         <div class="content">г. Саратов,</br>ул. Астраханская улица, 77</div>
+                     </div>
+                     <div class="opening-hours">
+                         <h2 class="title footer-title footer-menu-title">часы работы</h2>
+                         <div class="content footer-menu-title">Тренажерный зал <b>- КРУГЛОСУТОЧНО</b></div>
+                         <hr />
+                         <div class="content">Отдел продаж</div>
+                         <div class="content">с 09:00 до 22:00</div>
+                     </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
